@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+}
+
+header {
+  background: #e9f7ef;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #2f8f5b;
+}
+
+.table-box {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+
+.table-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.table-box button {
+  background: #6fcf97;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 16px;
+}
+
+.categories {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.categories button {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 14px;
+  background: #e9f7ef;
+  color: #2f8f5b;
+  white-space: nowrap;
+}
+
+.categories button.active {
+  background: #6fcf97;
+  color: white;
+}
+
+.menu {
+  padding: 10px;
+}
+
+.card {
+  background: #f6fef9;
+  border-radius: 16px;
+  padding: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.card span {
+  font-weight: bold;
+  color: #2f8f5b;
+}
+
+.cart {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #6fcf97;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 30px;
+}
