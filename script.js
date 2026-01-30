@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 const menuContainer = document.getElementById("menuContainer");
 const categoryButtons = document.getElementById("categoryButtons");
 
@@ -36,3 +38,5 @@ function loadMenu(category) {
 
 loadCategories();
 loadMenu(Object.keys(menuData)[0]);
+  });
+
